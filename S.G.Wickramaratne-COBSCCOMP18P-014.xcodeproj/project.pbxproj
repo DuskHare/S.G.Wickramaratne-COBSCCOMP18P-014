@@ -14,6 +14,9 @@
 		AC89E235237D8EF2004C0AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC89E233237D8EF2004C0AFD /* LaunchScreen.storyboard */; };
 		AC89E240237D8EF2004C0AFD /* S_G_Wickramaratne_COBSCCOMP18P_014Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89E23F237D8EF2004C0AFD /* S_G_Wickramaratne_COBSCCOMP18P_014Tests.swift */; };
 		AC89E24B237D8EF2004C0AFD /* S_G_Wickramaratne_COBSCCOMP18P_014UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89E24A237D8EF2004C0AFD /* S_G_Wickramaratne_COBSCCOMP18P_014UITests.swift */; };
+		ACCE1841238433CB0091A2E4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE1840238433CB0091A2E4 /* SignUpViewController.swift */; };
+		ACCE1843238434140091A2E4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE1842238434140091A2E4 /* SignInViewController.swift */; };
+		ACCE1845238434730091A2E4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE1844238434730091A2E4 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		AC89E246237D8EF2004C0AFD /* S.G.Wickramaratne-COBSCCOMP18P-014UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "S.G.Wickramaratne-COBSCCOMP18P-014UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC89E24A237D8EF2004C0AFD /* S_G_Wickramaratne_COBSCCOMP18P_014UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_G_Wickramaratne_COBSCCOMP18P_014UITests.swift; sourceTree = "<group>"; };
 		AC89E24C237D8EF2004C0AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCE1840238433CB0091A2E4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		ACCE1842238434140091A2E4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ACCE1844238434730091A2E4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				AC89E231237D8EF2004C0AFD /* Assets.xcassets */,
 				AC89E233237D8EF2004C0AFD /* LaunchScreen.storyboard */,
 				AC89E236237D8EF2004C0AFD /* Info.plist */,
+				ACCE1840238433CB0091A2E4 /* SignUpViewController.swift */,
+				ACCE1842238434140091A2E4 /* SignInViewController.swift */,
+				ACCE1844238434730091A2E4 /* HomeViewController.swift */,
 			);
 			path = "S.G.Wickramaratne-COBSCCOMP18P-014";
 			sourceTree = "<group>";
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCE1845238434730091A2E4 /* HomeViewController.swift in Sources */,
+				ACCE1843238434140091A2E4 /* SignInViewController.swift in Sources */,
+				ACCE1841238433CB0091A2E4 /* SignUpViewController.swift in Sources */,
 				AC89E22D237D8EF0004C0AFD /* ViewController.swift in Sources */,
 				AC89E22B237D8EF0004C0AFD /* AppDelegate.swift in Sources */,
 			);
