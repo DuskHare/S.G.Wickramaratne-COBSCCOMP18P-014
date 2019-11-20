@@ -66,13 +66,28 @@
                     <view key="view" contentMode="scaleToFill" id="GUL-Un-lFP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9wZ-l7-bUF">
+                                <rect key="frame" x="161" y="577" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Or9-UD-bJt">
+                                        <rect key="frame" x="0.0" y="0.0" width="52" height="30"/>
+                                        <state key="normal" title="Sign up"/>
+                                        <connections>
+                                            <segue destination="3Pr-Lg-Mh4" kind="show" id="ZTZ-Jf-jCF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="S3h-vT-woJ"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mfl-y2-s2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1618" y="351"/>
+            <point key="canvasLocation" x="2068" y="612"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="f4T-X8-KR3">
@@ -81,13 +96,31 @@
                     <view key="view" contentMode="scaleToFill" id="xx4-27-fGc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="epG-Pd-gj8">
+                                <rect key="frame" x="170" y="581" width="34" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyk-mt-kl1">
+                                        <rect key="frame" x="0.0" y="0.0" width="34" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Sic-KS-mS7"/>
+                                        </constraints>
+                                        <state key="normal" title="login"/>
+                                        <connections>
+                                            <segue destination="3Pr-Lg-Mh4" kind="show" id="JJd-Zi-oSI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Tjr-Js-8SH"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOk-6z-Dfc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1631" y="-361"/>
+            <point key="canvasLocation" x="2068" y="-419"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HkS-SJ-HOT">
@@ -102,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fD9-9A-wjm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2502" y="-23"/>
+            <point key="canvasLocation" x="3450" y="-2"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="52e-sK-GOy">
@@ -123,4 +156,7 @@
             <point key="canvasLocation" x="8.8000000000000007" y="96.7016491754123"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="JJd-Zi-oSI"/>
+    </inferredMetricsTieBreakers>
 </document>

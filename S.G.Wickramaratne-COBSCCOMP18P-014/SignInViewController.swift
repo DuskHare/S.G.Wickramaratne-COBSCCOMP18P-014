@@ -7,13 +7,38 @@
 //
 
 import UIKit
-
+import Firebase
 class SignInViewController: UIViewController {
-
+    
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func signInClick(_ sender: Any) {
+        
+        if username.text?.isEmpty ?? true {
+            self.alert(message: "Enter Email")
+            return
+        }
+        
+        if password.text?.isEmpty ?? true {
+            self.alert(message: "Enter Password")
+        }
+        
+        Auth.auth().signIn(withEmail: username.text!, password: password.text!) { [weak self] user, error in
+            guard let strongSelf = self else { return }
+            
+            if (error != nil){
+                strongSelf.alert(message: error?.localizedDescription ?? "Error")
+                return
+            }else{
+                strongSelf.performSegue(withIdentifier: "homeNav", sender: self)
+            }
+        }
     }
     
 
