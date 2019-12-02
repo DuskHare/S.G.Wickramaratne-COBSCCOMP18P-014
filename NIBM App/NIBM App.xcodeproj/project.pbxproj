@@ -10,6 +10,7 @@
 		6E72EC2ECB0174BADC7DB96A /* Pods_NIBM_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3591EA104AD3EEBA87B4A8E /* Pods_NIBM_AppTests.framework */; };
 		8CD74C2EDB3B3AACF0DF61F8 /* Pods_NIBM_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C181C51C53D35290AB79AA1C /* Pods_NIBM_App.framework */; };
 		ADB2D805FBDE53E751703675 /* Pods_NIBM_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E38574EA2213929136A8D1F /* Pods_NIBM_AppUITests.framework */; };
+		EF8BA8BA2394DF87001FE97A /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA8B92394DF87001FE97A /* MyProfileViewController.swift */; };
 		EFD12A182393CA9700D0064E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD12A172393CA9700D0064E /* AppDelegate.swift */; };
 		EFD12A1A2393CA9700D0064E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD12A192393CA9700D0064E /* ViewController.swift */; };
 		EFD12A1D2393CA9700D0064E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD12A1B2393CA9700D0064E /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		AF40160453407D8E6F470F5A /* Pods-NIBM App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM App.debug.xcconfig"; path = "Target Support Files/Pods-NIBM App/Pods-NIBM App.debug.xcconfig"; sourceTree = "<group>"; };
 		C181C51C53D35290AB79AA1C /* Pods_NIBM_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E608D7FBF9FFF883DC5B8ECC /* Pods-NIBM AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM AppUITests/Pods-NIBM AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF8BA8B92394DF87001FE97A /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		EFD12A142393CA9700D0064E /* NIBM App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD12A172393CA9700D0064E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFD12A192393CA9700D0064E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				EFD12A5523941B1A00D0064E /* HomeViewController.swift */,
 				EFD12A5723941B3B00D0064E /* AddPostViewController.swift */,
 				EFD12A5923941B5500D0064E /* postsViewController.swift */,
+				EF8BA8B92394DF87001FE97A /* MyProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				EFD12A4E23940C4100D0064E /* SignUpViewController.swift in Sources */,
 				EFD12A522394116E00D0064E /* SignInViewController.swift in Sources */,
 				EFD12A5D239420EE00D0064E /* AddPostModel.swift in Sources */,
+				EF8BA8BA2394DF87001FE97A /* MyProfileViewController.swift in Sources */,
 				EFD12A5823941B3B00D0064E /* AddPostViewController.swift in Sources */,
 				EFD12A5023940C5B00D0064E /* ForgotViewController.swift in Sources */,
 				EFD12A602394215900D0064E /* PostCell.swift in Sources */,
